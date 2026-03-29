@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+    <meta name="description" content="StickNext Wiki - Go To Future. Dunia digital penuh jiwa dan ancaman.">
+    <meta name="theme-color" content="#9D4EDD">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="StickNext Wiki">
+    <title>StickNext Wiki - Go To Future</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                🚀 STICKNEXT
+                <span class="logo-subtitle">Go To Future</span>
+            </div>
+            
+            <!-- Hamburger Menu Toggle untuk Mobile -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav id="navMenu" class="nav-menu">
+                <ul>
+                    <li><a data-page="home" class="active">🏠 Home</a></li>
+                    <li><a data-page="factions">⚔️ Aliansi</a></li>
+                    <li><a data-page="characters">👥 Karakter</a></li>
+                    <li><a data-page="world">🌍 Dunia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div id="content">
+                <!-- Content rendered here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p><strong>🚀 StickNext Wiki</strong> - Motto: "Go To Future"</p>
+            <p>Dunia Digital Penuh Jiwa dan Ancaman | Karya dari Growmelia Lea</p>
+            <p style="margin-top: 20px; color: #888; font-size: 0.9em;">
+                © 2026 StickNext Universe | Semua tradisi dilindungi
+            </p>
+            <div class="footer-links">
+                <a href="#" onclick="wiki.render('home'); return false;">Home</a>
+                <a href="#" onclick="wiki.render('factions'); return false;">Aliansi</a>
+                <a href="#" onclick="wiki.render('characters'); return false;">Karakter</a>
+                <a href="#" onclick="wiki.render('world'); return false;">Dunia</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
